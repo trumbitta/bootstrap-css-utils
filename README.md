@@ -4,12 +4,15 @@
 
 Bootstrap CSS Utils is collection of handy CSS helper classes you can use to complement [Bootstrap's own already amazing ones](http://getbootstrap.com/css/#helper-classes).
 
-
 ## Table of contents
 
 * [Install](#install)
 * [Rhythm classes](#rhythm-helper-classes)
 * [Display classes](#display-helper-classes)
+* [Help wanted](#help-wanted)
+* [Versioning](#versioning)
+* [Creator](#creator)
+* [Copyright and license](#copyright-and-license)
 
 ## Install
 
@@ -27,7 +30,6 @@ bower install bootstrap-css-utils
     <link href="bower_components/bootstrap-css-utils/dist/bootstrap-css-utils.min.css" rel="stylesheet" />
 ...
 ```
-
 
 ### Git
 
@@ -134,3 +136,29 @@ When you are dealing with complex CSS shenanigans and need some quick little tou
   display: inline-block !important;
 }
 ```
+
+## Help wanted
+
+I need help refactoring the LESS code into something more maintainable.  
+Right now, the code is redundant at best.
+
+I already used coherent variable and class names, but I lack the skill to properly use LESS to achieve what is needed... and the time to learn myself how to do it ;-)
+
+Please open a pull-request if you think you can help improving the LESS code or any other part of the project.
+
+## Versioning
+
+I'm using [the Semantic Versioning guidelines](http://semver.org/). Sometimes I'll screw up, but I'll adhere to those rules whenever possible.
+
+## Creator
+
+**William Ghelfi**
+
+* <https://twitter.com/trumbitta>
+* <https://github.com/trumbitta>
+* <http://www.williamghelfi.com>
+
+## Copyright and license
+
+Code copyright 2015 William Ghelfi. Code released under [the MIT license](https://github.com/trumbitta/bootstrap-css-utils/blob/master/LICENSE).
+
