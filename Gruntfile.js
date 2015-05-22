@@ -1,8 +1,8 @@
 /*!
- * Bootstrap's Gruntfile
- * http://getbootstrap.com
- * Copyright 2013-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Bootstrap CSS Utils's Gruntfile
+ * http://github.com/trumbitta/bootstrap-css-utils
+ * Copyright 2015 William Ghelfi
+ * Licensed under MIT (https://github.com/trumbitta/bootstrap-css-utils/blob/master/LICENSE)
  */
 
 module.exports = function (grunt) {
@@ -17,8 +17,8 @@ module.exports = function (grunt) {
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
     banner: '/*!\n' +
-            ' * Bootstrap v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-            ' * Copyright 2011-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Bootstrap CSS Utils v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+            ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
             ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
             ' */\n',
 
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
           "Safari >= 6"
         ]
       },
-      core: {
+      all: {
         options: {
           map: true
         },
@@ -136,7 +136,7 @@ module.exports = function (grunt) {
 
   // CSS distribution task.
   grunt.registerTask('less-compile', ['less:compile']);
-  grunt.registerTask('dist-css', ['less-compile', 'autoprefixer:core', 'autoprefixer:theme', 'usebanner', 'csscomb:dist', 'cssmin:minifyCore', 'cssmin:minifyTheme']);
+  grunt.registerTask('dist-css', ['less-compile', 'autoprefixer:all', 'usebanner', 'csscomb:dist', 'cssmin:minify']);
 
   // Full distribution task.
   grunt.registerTask('dist', ['clean', 'dist-css']);
