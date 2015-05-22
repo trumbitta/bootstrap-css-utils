@@ -9,6 +9,7 @@ Bootstrap CSS Utils is collection of handy CSS helper classes you can use to com
 * [Install](#install)
 * [Rhythm classes](#rhythm-helper-classes)
 * [Display classes](#display-helper-classes)
+* [Customization](#customization)
 * [Help wanted](#help-wanted)
 * [Versioning](#versioning)
 * [Creator](#creator)
@@ -137,14 +138,31 @@ When you are dealing with complex CSS shenanigans and need some quick little tou
 }
 ```
 
+## Customization
+
+Variables are in `less/variables.less`.  
+Customize at will, then rebuild via `grunt dist`.
+
+### Default values
+
+```
+@rhythm-base: 1em;
+
+@rhythm-xs: (@rhythm-base / 4);
+@rhythm-sm: (@rhythm-base / 2);
+@rhythm-md: (@rhythm-base);
+@rhythm-lg: (@rhythm-base * 2);
+@rhythm-xl: (@rhythm-base * 4);
+```
+
 ## Help wanted
 
-I need help refactoring the LESS code into something more maintainable.  
+I need help refactoring the *Less* code into something more maintainable.  
 Right now, the code is redundant at best.
 
-I already used coherent variable and class names, but I lack the skill to properly use LESS to achieve what is needed... and the time to learn myself how to do it ;-)
+I already used coherent variable and class names, but I lack the skill to properly use *Less* to achieve what is needed... and the time to learn myself how to do it ;-)
 
-Please open a pull-request if you think you can help improving the LESS code or any other part of the project.
+Please open a pull-request if you think you can help improving the *Less* code or any other part of the project.
 
 ## Versioning
 
