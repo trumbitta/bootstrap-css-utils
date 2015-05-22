@@ -19,7 +19,7 @@ Bootstrap CSS Utils is collection of handy CSS helper classes you can use to com
 
 ## Install
 
-### Bower (coming soon!)
+### Bower
 
 **Import the package**:  
 ```bash
