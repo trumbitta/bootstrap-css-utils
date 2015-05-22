@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>bootstrap-css-utils by trumbitta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">bootstrap-css-utils</h1>
+      <h2 class="project-tagline">Some utility CSS classes for Bootstrap (spacing, displaying, ...)</h2>
+      <a href="https://github.com/trumbitta/bootstrap-css-utils" class="btn">View on GitHub</a>
+      <a href="https://github.com/trumbitta/bootstrap-css-utils/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/trumbitta/bootstrap-css-utils/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="bootstrap-css-utils" class="anchor" href="#bootstrap-css-utils" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap CSS Utils</h1>
+
+<p><img src="keep-calm.png" alt="Keep calm and add a class"></p>
+
+<p>Bootstrap CSS Utils is collection of handy CSS helper classes you can use to complement <a href="http://getbootstrap.com/css/#helper-classes">Bootstrap's own already amazing ones</a>.</p>
+
+<p><strong>Note</strong>: <em>The classes are designed and intended to gracefully work with Bootstrap, but you can also use them alone if you so feel like it.</em></p>
+
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of contents</h2>
+
+<ul>
+<li><a href="#install">Install</a></li>
+<li><a href="#rhythm-helper-classes">Rhythm classes</a></li>
+<li><a href="#display-helper-classes">Display classes</a></li>
+<li><a href="#customization">Customization</a></li>
+<li><a href="#help-wanted">Help wanted</a></li>
+<li><a href="#versioning">Versioning</a></li>
+<li><a href="#creator">Creator</a></li>
+<li><a href="#copyright-and-license">Copyright and license</a></li>
+</ul>
+
+<h2>
+<a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
+
+<h3>
+<a id="bower-coming-soon" class="anchor" href="#bower-coming-soon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bower (coming soon!)</h3>
+
+<p><strong>Import the package</strong>:  </p>
+
+<div class="highlight highlight-bash"><pre>bower install bootstrap-css-utils</pre></div>
+
+<p><strong>Include the CSS file</strong>:  </p>
+
+<div class="highlight highlight-HTML"><pre>...
+&lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>bower_components/bootstrap-css-utils/dist/bootstrap-css-utils.min.css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> /&gt;
+...</pre></div>
+
+<h3>
+<a id="git" class="anchor" href="#git" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git</h3>
+
+<p><strong>Clone the repo</strong>:  </p>
+
+<div class="highlight highlight-bash"><pre>git clone https://github.com/trumbitta/bootstrap-css-utils.git</pre></div>
+
+<p><strong>Copy the CSS file</strong>:  </p>
+
+<pre><code>bootstrap-css-utils/dist/bootstrap-css-utils.min.css
+</code></pre>
+
+<p><strong>Or the non-minified version</strong>:  </p>
+
+<pre><code>bootstrap-css-utils/dist/bootstrap-css-utils.css
+</code></pre>
+
+<p><strong>Include the CSS file</strong>:  </p>
+
+<div class="highlight highlight-HTML"><pre>...
+&lt;<span class="pl-ent">head</span>&gt;
+    &lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>bootstrap-css-utils.min.css<span class="pl-pds">"</span></span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> /&gt;
+...</pre></div>
+
+<h2>
+<a id="rhythm-helper-classes" class="anchor" href="#rhythm-helper-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rhythm helper classes</h2>
+
+<p>Vertical and Horizontal rhythm is very important in a good GUI. Whenever you are in need of a bit coherent spacing, use one of the <em>rhythm</em> classes</p>
+
+<h3>
+<a id="variations" class="anchor" href="#variations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variations</h3>
+
+<p>Every class name is composed as follows: <code>[variant]-[direction]-[size]</code></p>
+
+<ul>
+<li>
+<strong>Variants:</strong>
+
+<ul>
+<li><code>margin</code></li>
+<li><code>padding</code></li>
+</ul>
+</li>
+<li>
+<strong>Directions:</strong>
+
+<ul>
+<li><code>vertical</code></li>
+<li><code>horizontal</code></li>
+</ul>
+</li>
+<li>
+<strong>Sizes:</strong>
+
+<ul>
+<li><code>xs</code></li>
+<li><code>sm</code></li>
+<li><code>md</code></li>
+<li><code>lg</code></li>
+<li><code>xl</code></li>
+</ul>
+</li>
+</ul>
+
+<p>Size abbreviations have the same meaning as in Bootstrap, with the added <code>xl: extra-large</code> one.</p>
+
+<h3>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
+
+<h4>
+<a id="medium-vertical-margin" class="anchor" href="#medium-vertical-margin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Medium vertical margin</h4>
+
+<div class="highlight highlight-HTML"><pre><span class="pl-c">&lt;!-- HTML --&gt;</span>
+
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>panel panel-default margin-vertical-md<span class="pl-pds">"</span></span>&gt;
+  ...
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<div class="highlight highlight-CSS"><pre><span class="pl-c">/* CSS */</span>
+
+<span class="pl-e">.margin-vertical-md</span> {
+  <span class="pl-c1"><span class="pl-c1">margin-top</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span> <span class="pl-k">!important</span>;
+  <span class="pl-c1"><span class="pl-c1">margin-bottom</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span> <span class="pl-k">!important</span>;
+}</pre></div>
+
+<h4>
+<a id="large-horizontal-padding" class="anchor" href="#large-horizontal-padding" aria-hidden="true"><span class="octicon octicon-link"></span></a>Large horizontal padding</h4>
+
+<div class="highlight highlight-HTML"><pre><span class="pl-c">&lt;!-- HTML --&gt;</span>
+
+&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>padding-horizontal-lg<span class="pl-pds">"</span></span>&gt;
+  ...
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<div class="highlight highlight-CSS"><pre><span class="pl-c">/* CSS */</span>
+
+<span class="pl-e">.padding-horizontal-lg</span> {
+  <span class="pl-c1"><span class="pl-c1">padding-left</span></span>: <span class="pl-c1">2<span class="pl-k">em</span></span> <span class="pl-k">!important</span>;
+  <span class="pl-c1"><span class="pl-c1">padding-right</span></span>: <span class="pl-c1">2<span class="pl-k">em</span></span> <span class="pl-k">!important</span>;
+}</pre></div>
+
+<h2>
+<a id="display-helper-classes" class="anchor" href="#display-helper-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Display helper classes</h2>
+
+<p>When you are dealing with complex CSS shenanigans and need some quick little touches of display wizardry, use one of these:</p>
+
+<div class="highlight highlight-CSS"><pre><span class="pl-e">.display-inline</span> {
+  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">inline</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.display-block</span> {
+  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.display-inline-block</span> {
+  <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">inline-block</span> <span class="pl-k">!important</span>;
+}</pre></div>
+
+<h2>
+<a id="customization" class="anchor" href="#customization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customization</h2>
+
+<p>Variables are in <code>less/variables.less</code>.<br>
+Customize at will, then rebuild via <code>grunt dist</code>.</p>
+
+<h3>
+<a id="default-values" class="anchor" href="#default-values" aria-hidden="true"><span class="octicon octicon-link"></span></a>Default values</h3>
+
+<pre><code>@rhythm-base: 1em;
+
+@rhythm-xs: (@rhythm-base / 4);
+@rhythm-sm: (@rhythm-base / 2);
+@rhythm-md: (@rhythm-base);
+@rhythm-lg: (@rhythm-base * 2);
+@rhythm-xl: (@rhythm-base * 4);
+</code></pre>
+
+<h2>
+<a id="help-wanted" class="anchor" href="#help-wanted" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help wanted</h2>
+
+<p>I need help refactoring the <em>Less</em> code into something more maintainable.<br>
+Right now, the code is redundant at best.</p>
+
+<p>I already used coherent variable and class names, but I lack the skill to properly use <em>Less</em> to achieve what is needed... and the time to learn myself how to do it ;-)</p>
+
+<p>Please open a pull-request if you think you can help improving the <em>Less</em> code or any other part of the project.</p>
+
+<h2>
+<a id="versioning" class="anchor" href="#versioning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Versioning</h2>
+
+<p>I'm using <a href="http://semver.org/">the Semantic Versioning guidelines</a>. Sometimes I'll screw up, but I'll adhere to those rules whenever possible.</p>
+
+<h2>
+<a id="creator" class="anchor" href="#creator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creator</h2>
+
+<p><strong>William Ghelfi</strong></p>
+
+<ul>
+<li><a href="https://twitter.com/trumbitta">https://twitter.com/trumbitta</a></li>
+<li><a href="https://github.com/trumbitta">https://github.com/trumbitta</a></li>
+<li><a href="http://www.williamghelfi.com">http://www.williamghelfi.com</a></li>
+</ul>
+
+<h2>
+<a id="copyright-and-license" class="anchor" href="#copyright-and-license" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copyright and license</h2>
+
+<p>Code copyright 2015 William Ghelfi. Code released under <a href="https://github.com/trumbitta/bootstrap-css-utils/blob/master/LICENSE">the MIT license</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/trumbitta/bootstrap-css-utils">bootstrap-css-utils</a> is maintained by <a href="https://github.com/trumbitta">trumbitta</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
