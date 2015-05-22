@@ -4,7 +4,7 @@
 
 Bootstrap CSS Utils is collection of handy CSS helper classes you can use to complement [Bootstrap's own already amazing ones](http://getbootstrap.com/css/#helper-classes).
 
-**Note**: *The classes are designed and intended to gracefuly work with Bootstrap, but you can also use them alone if you so feel like it.*
+**Note**: *The classes are designed and intended to gracefully work with Bootstrap, but you can also use them alone if you so feel like it.*
 
 ## Table of contents
 
