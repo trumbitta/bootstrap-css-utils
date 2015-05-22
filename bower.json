@@ -1,0 +1,37 @@
+{
+  "name": "bootstrap-css-utils",
+  "version": "0.0.1",
+  "authors": [
+    "William Ghelfi <trumbitta@gmail.com>"
+  ],
+  "description": "Some utility CSS classes for Bootstrap (spacing, displaying, ...)",
+  "main": [
+    "less/bootstrap-css-utils.less"
+    "dist/bootstrap-css-utils.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bootstrap",
+    "css",
+    "utils",
+    "spacers",
+    "spacing",
+    "vertical",
+    "rhythm",
+    "display",
+    "misc"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}

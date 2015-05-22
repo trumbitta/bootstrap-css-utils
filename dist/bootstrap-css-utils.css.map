@@ -1,0 +1,1 @@
+{"version":3,"sources":["less/bootstrap-css-utils.less"],"names":[],"mappings":"AAGA;EACC,cAAA","sourcesContent":["// Core variables\n@import \"../bower_components/bootstrap/less/variables.less\";\n\nbody {\n\tcolor: @gray-darker;\n}"]}
