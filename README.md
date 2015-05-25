@@ -141,23 +141,6 @@ When you are dealing with complex CSS shenanigans and need some quick little tou
 }
 ```
 
-## Customization
-
-Variables are in `less/variables.less`.  
-Customize at will, then rebuild via `grunt dist`.
-
-### Default values
-
-```
-@rhythm-base: 1em;
-
-@rhythm-xs: (@rhythm-base / 4);
-@rhythm-sm: (@rhythm-base / 2);
-@rhythm-md: (@rhythm-base);
-@rhythm-lg: (@rhythm-base * 2);
-@rhythm-xl: (@rhythm-base * 4);
-```
-
 ## Text helper classes
 
 Because sometimes you need bold text merely for design purposes.
@@ -182,6 +165,23 @@ Because sometimes you need bold text merely for design purposes.
 .text-stronger {
   font-weight: 700 !important;
 }
+```
+
+## Customization
+
+Variables are in `less/variables.less`.  
+Customize at will, then rebuild via `grunt dist`.
+
+### Default values
+
+```
+@rhythm-base: 1em;
+
+@rhythm-xs: (@rhythm-base / 4);
+@rhythm-sm: (@rhythm-base / 2);
+@rhythm-md: (@rhythm-base);
+@rhythm-lg: (@rhythm-base * 2);
+@rhythm-xl: (@rhythm-base * 4);
 ```
 
 ## Help wanted
