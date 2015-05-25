@@ -1,9 +1,49 @@
 /*!
- * Bootstrap CSS Utils v0.0.1 (http://github.com/trumbitta/bootstrap-css-utils)
+ * Bootstrap CSS Utils v0.1.3 (http://github.com/trumbitta/bootstrap-css-utils)
  * Copyright 2015 William Ghelfi <trumbitta@gmail.com>
  * Licensed under MIT (https://github.com/trumbitta/bootstrap-css-utils/blob/master/LICENSE)
  */
 
+.margin-all-none {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+}
+.margin-all-xs {
+  margin-top: .25em !important;
+  margin-right: .25em !important;
+  margin-bottom: .25em !important;
+  margin-left: .25em !important;
+}
+.margin-all-sm {
+  margin-top: .5em !important;
+  margin-right: .5em !important;
+  margin-bottom: .5em !important;
+  margin-left: .5em !important;
+}
+.margin-all-md {
+  margin-top: 1em !important;
+  margin-right: 1em !important;
+  margin-bottom: 1em !important;
+  margin-left: 1em !important;
+}
+.margin-all-lg {
+  margin-top: 2em !important;
+  margin-right: 2em !important;
+  margin-bottom: 2em !important;
+  margin-left: 2em !important;
+}
+.margin-all-xl {
+  margin-top: 4em !important;
+  margin-right: 4em !important;
+  margin-bottom: 4em !important;
+  margin-left: 4em !important;
+}
+.margin-vertical-none {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 .margin-vertical-xs {
   margin-top: .25em !important;
   margin-bottom: .25em !important;
@@ -24,6 +64,9 @@
   margin-top: 4em !important;
   margin-bottom: 4em !important;
 }
+.margin-top-none {
+  margin-top: 0 !important;
+}
 .margin-top-xs {
   margin-top: .25em !important;
 }
@@ -39,6 +82,9 @@
 .margin-top-xl {
   margin-top: 4em !important;
 }
+.margin-bottom-none {
+  margin-bottom: 0 !important;
+}
 .margin-bottom-xs {
   margin-bottom: .25em !important;
 }
@@ -53,6 +99,10 @@
 }
 .margin-bottom-xl {
   margin-bottom: 4em !important;
+}
+.margin-horizontal-none {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 .margin-horizontal-xs {
   margin-right: .25em !important;
@@ -74,6 +124,9 @@
   margin-right: 4em !important;
   margin-left: 4em !important;
 }
+.margin-left-none {
+  margin-left: 0 !important;
+}
 .margin-left-xs {
   margin-left: .25em !important;
 }
@@ -89,6 +142,9 @@
 .margin-left-xl {
   margin-left: 4em !important;
 }
+.margin-right-none {
+  margin-right: 0 !important;
+}
 .margin-right-xs {
   margin-right: .25em !important;
 }
@@ -103,6 +159,46 @@
 }
 .margin-right-xl {
   margin-right: 4em !important;
+}
+.padding-all-none {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.padding-all-xs {
+  padding-top: .25em !important;
+  padding-right: .25em !important;
+  padding-bottom: .25em !important;
+  padding-left: .25em !important;
+}
+.padding-all-sm {
+  padding-top: .5em !important;
+  padding-right: .5em !important;
+  padding-bottom: .5em !important;
+  padding-left: .5em !important;
+}
+.padding-all-md {
+  padding-top: 1em !important;
+  padding-right: 1em !important;
+  padding-bottom: 1em !important;
+  padding-left: 1em !important;
+}
+.padding-all-lg {
+  padding-top: 2em !important;
+  padding-right: 2em !important;
+  padding-bottom: 2em !important;
+  padding-left: 2em !important;
+}
+.padding-all-xl {
+  padding-top: 4em !important;
+  padding-right: 4em !important;
+  padding-bottom: 4em !important;
+  padding-left: 4em !important;
+}
+.padding-vertical-none {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
 .padding-vertical-xs {
   padding-top: .25em !important;
@@ -124,6 +220,9 @@
   padding-top: 4em !important;
   padding-bottom: 4em !important;
 }
+.padding-top-none {
+  padding-top: 0 !important;
+}
 .padding-top-xs {
   padding-top: .25em !important;
 }
@@ -139,6 +238,9 @@
 .padding-top-xl {
   padding-top: 4em !important;
 }
+.padding-bottom-none {
+  padding-bottom: 0 !important;
+}
 .padding-bottom-xs {
   padding-bottom: .25em !important;
 }
@@ -153,6 +255,10 @@
 }
 .padding-bottom-xl {
   padding-bottom: 4em !important;
+}
+.padding-horizontal-none {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 .padding-horizontal-xs {
   padding-right: .25em !important;
@@ -174,6 +280,9 @@
   padding-right: 4em !important;
   padding-left: 4em !important;
 }
+.padding-left-none {
+  padding-left: 0 !important;
+}
 .padding-left-xs {
   padding-left: .25em !important;
 }
@@ -188,6 +297,9 @@
 }
 .padding-left-xl {
   padding-left: 4em !important;
+}
+.padding-right-none {
+  padding-right: 0 !important;
 }
 .padding-right-xs {
   padding-right: .25em !important;
