@@ -19,6 +19,9 @@
     </section>
 
     <section class="main-content">
+      <h1>
+<a id="bootstrap-css-utils" class="anchor" href="#bootstrap-css-utils" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bootstrap CSS Utils</h1>
+
 <p><img src="keep-calm.png" alt="Keep calm and add a class"></p>
 
 <p>Bootstrap CSS Utils is collection of handy CSS helper classes you can use to complement <a href="http://getbootstrap.com/css/#helper-classes">Bootstrap's own already amazing ones</a>.</p>
@@ -32,6 +35,7 @@
 <li><a href="#install">Install</a></li>
 <li><a href="#rhythm-helper-classes">Rhythm classes</a></li>
 <li><a href="#display-helper-classes">Display classes</a></li>
+<li><a href="#text-helper-classes">Text classes</a></li>
 <li><a href="#customization">Customization</a></li>
 <li><a href="#help-wanted">Help wanted</a></li>
 <li><a href="#versioning">Versioning</a></li>
@@ -43,7 +47,7 @@
 <a id="install" class="anchor" href="#install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install</h2>
 
 <h3>
-<a id="bower-coming-soon" class="anchor" href="#bower-coming-soon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bower</h3>
+<a id="bower" class="anchor" href="#bower" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bower</h3>
 
 <p><strong>Import the package</strong>:  </p>
 
@@ -191,6 +195,31 @@ Customize at will, then rebuild via <code>grunt dist</code>.</p>
 @rhythm-lg: (@rhythm-base * 2);
 @rhythm-xl: (@rhythm-base * 4);
 </code></pre>
+
+<h2>
+<a id="text-helper-classes" class="anchor" href="#text-helper-classes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Text helper classes</h2>
+
+<p>Because sometimes you need bold text merely for design purposes.</p>
+
+<div class="highlight highlight-CSS"><pre><span class="pl-e">.text-italic</span> {
+  <span class="pl-c1"><span class="pl-c1">font-style</span></span>: <span class="pl-c1">italic</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.text-normal</span> {
+  <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">normal</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.text-strikethrough</span> {
+  <span class="pl-c1"><span class="pl-c1">text-decoration</span></span>: <span class="pl-c1">line-through</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.text-strong</span> {
+  <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">500</span> <span class="pl-k">!important</span>;
+}
+
+<span class="pl-e">.text-stronger</span> {
+  <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">700</span> <span class="pl-k">!important</span>;
+}</pre></div>
 
 <h2>
 <a id="help-wanted" class="anchor" href="#help-wanted" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help wanted</h2>
