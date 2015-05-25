@@ -11,6 +11,7 @@ Bootstrap CSS Utils is collection of handy CSS helper classes you can use to com
 * [Install](#install)
 * [Rhythm classes](#rhythm-helper-classes)
 * [Display classes](#display-helper-classes)
+* [Text classes](#text-helper-classes)
 * [Customization](#customization)
 * [Help wanted](#help-wanted)
 * [Versioning](#versioning)
@@ -155,6 +156,32 @@ Customize at will, then rebuild via `grunt dist`.
 @rhythm-md: (@rhythm-base);
 @rhythm-lg: (@rhythm-base * 2);
 @rhythm-xl: (@rhythm-base * 4);
+```
+
+## Text helper classes
+
+Because sometimes you need bold text merely for design purposes.
+
+```CSS
+.text-italic {
+  font-style: italic !important;
+}
+
+.text-normal {
+  font-weight: normal !important;
+}
+
+.text-strikethrough {
+  text-decoration: line-through !important;
+}
+
+.text-strong {
+  font-weight: 500 !important;
+}
+
+.text-stronger {
+  font-weight: 700 !important;
+}
 ```
 
 ## Help wanted
