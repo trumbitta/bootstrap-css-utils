@@ -325,4 +325,19 @@
 .display-inline-block {
   display: inline-block !important;
 }
+.text-italic {
+  font-style: italic !important;
+}
+.text-normal {
+  font-weight: normal !important;
+}
+.text-strikethrough {
+  text-decoration: line-through !important;
+}
+.text-strong {
+  font-weight: 500 !important;
+}
+.text-stronger {
+  font-weight: 700 !important;
+}
 /*# sourceMappingURL=bootstrap-css-utils.css.map */
