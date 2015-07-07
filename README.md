@@ -150,6 +150,10 @@ Because sometimes you need bold text merely for design purposes.
   font-style: italic !important;
 }
 
+.text-monospace {
+  font-family: monospace !important;
+}
+
 .text-normal {
   font-weight: normal !important;
 }
