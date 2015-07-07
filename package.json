@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-css-utils",
   "description": "Some utility CSS classes for Bootstrap (spacing, displaying, ...)",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "keywords": [
     "bootstrap",
     "css",
